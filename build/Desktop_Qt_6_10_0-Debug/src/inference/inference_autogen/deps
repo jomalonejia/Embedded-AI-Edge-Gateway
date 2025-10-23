@@ -1,0 +1,4 @@
+inference_autogen/timestamp: \
+	/home/linux/project/Embedded-AI-Edge-Gateway/src/inference/CMakeLists.txt \
+	/home/linux/project/Embedded-AI-Edge-Gateway/src/inference/inferenceengine.cpp \
+	/usr/bin/cmake

@@ -1,0 +1,4 @@
+module EmbeddedAI
+typeinfo EmbeddedAIEdgeGateway.qmltypes
+prefer :/EmbeddedAI/
+

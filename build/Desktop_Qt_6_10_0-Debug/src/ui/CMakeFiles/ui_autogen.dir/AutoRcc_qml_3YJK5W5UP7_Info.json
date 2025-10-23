@@ -1,0 +1,24 @@
+{
+	"BUILD_DIR" : "/home/linux/project/Embedded-AI-Edge-Gateway/build/Desktop_Qt_6_10_0-Debug/src/ui/ui_autogen",
+	"CMAKE_BINARY_DIR" : "/home/linux/project/Embedded-AI-Edge-Gateway/build/Desktop_Qt_6_10_0-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/linux/project/Embedded-AI-Edge-Gateway/build/Desktop_Qt_6_10_0-Debug/src/ui",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/linux/project/Embedded-AI-Edge-Gateway/src/ui",
+	"CMAKE_SOURCE_DIR" : "/home/linux/project/Embedded-AI-Edge-Gateway",
+	"GENERATOR" : "Ninja",
+	"INCLUDE_DIR" : "/home/linux/project/Embedded-AI-Edge-Gateway/build/Desktop_Qt_6_10_0-Debug/src/ui/ui_autogen/include",
+	"INPUTS" : 
+	[
+		"/home/linux/project/Embedded-AI-Edge-Gateway/src/ui/qml/qmldir",
+		"/home/linux/project/Embedded-AI-Edge-Gateway/src/ui/qml/main.qml"
+	],
+	"LOCK_FILE" : "/home/linux/project/Embedded-AI-Edge-Gateway/build/Desktop_Qt_6_10_0-Debug/src/ui/CMakeFiles/ui_autogen.dir/AutoRcc_qml_3YJK5W5UP7_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "qml" ],
+	"OUTPUT_CHECKSUM" : "3YJK5W5UP7",
+	"OUTPUT_NAME" : "qrc_qml.cpp",
+	"RCC_EXECUTABLE" : "/home/linux/software/Qt/6.10.0/gcc_64/libexec/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/linux/project/Embedded-AI-Edge-Gateway/build/Desktop_Qt_6_10_0-Debug/src/ui/CMakeFiles/ui_autogen.dir/AutoRcc_qml_3YJK5W5UP7_Used.txt",
+	"SOURCE" : "/home/linux/project/Embedded-AI-Edge-Gateway/src/ui/resources/qml.qrc",
+	"VERBOSITY" : 0
+}

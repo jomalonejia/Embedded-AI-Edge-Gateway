@@ -1,0 +1,8 @@
+module EmbeddedAI.UI
+linktarget uiplugin
+optional plugin uiplugin
+classname EmbeddedAI_UIPlugin
+typeinfo ui.qmltypes
+prefer :/EmbeddedAI/UI/
+depends QtQuick
+
