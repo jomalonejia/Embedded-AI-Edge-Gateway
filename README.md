@@ -16,26 +16,28 @@
 
 ## 📁 项目目录结构
 
+```bash
 .
-├── build/ # 构建输出目录
-├── config/ # 配置文件
-│ ├── plugins/
-│ ├── speech/
-│ └── system.yaml
-├── docs/ # 文档
-├── include/ # 公共头文件
-├── models/ # AI 模型文件
-├── scripts/ # 编译/运行脚本
-├── src/ # 源码
-│ ├── capture/ # 视频/音频采集模块
-│ ├── control/ # 设备控制模块
-│ ├── core/ # 核心模块：配置/日志/事件总线
-│ ├── dispatcher/ # 结果分发模块
-│ ├── inference/ # AI 推理模块
-│ ├── main/ # 主程序与 QML UI
-│ ├── plugins/ # 插件管理模块
-│ └── speech/ # 语音模块
-└── tests/ # 单元测试
+├── build/                    # 构建输出目录
+├── config/                   # 配置文件
+│   ├── plugins/
+│   ├── speech/
+│   └── system.yaml
+├── docs/                     # 文档
+├── include/                  # 公共头文件
+├── models/                   # AI 模型文件
+├── scripts/                  # 编译/运行脚本
+├── src/                      # 源码
+│   ├── capture/              # 视频/音频采集模块
+│   ├── control/              # 设备控制模块
+│   ├── core/                 # 核心模块：配置/日志/事件总线
+│   ├── dispatcher/           # 结果分发模块
+│   ├── inference/            # AI 推理模块
+│   ├── main/                 # 主程序与 QML UI
+│   ├── plugins/              # 插件管理模块
+│   └── speech/               # 语音模块
+└── tests/                    # 单元测试
+```
 
 ---
 
@@ -86,6 +88,21 @@ flowchart TD
 
 # 运行
 ./scripts/run.sh
+
+```
+---
+
+## 🧩 后续扩展方向
+
+YOLOv8 / OpenVINO / TensorRT 推理加速
+
+多摄像头同步分析
+
+行为分析报警逻辑优化
+
+云端 AI 平台对接
+
+安全沙箱机制与远程升级
 
 
 
