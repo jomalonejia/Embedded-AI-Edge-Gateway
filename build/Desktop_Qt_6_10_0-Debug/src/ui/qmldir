@@ -1,9 +1,0 @@
-module ui
-linktarget uiplugin
-optional plugin uiplugin
-classname uiPlugin
-typeinfo ui.qmltypes
-prefer :/qt/qml/ui/
-Main 1.0 Main.qml
-depends QtQuick
-

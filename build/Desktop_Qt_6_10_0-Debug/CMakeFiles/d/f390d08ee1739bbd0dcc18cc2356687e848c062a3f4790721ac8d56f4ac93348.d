@@ -1,5 +1,0 @@
-src/capture/capture_autogen/timestamp: \
-  /home/linux/project/Embedded-AI-Edge-Gateway/src/capture/CMakeLists.txt \
-  /home/linux/project/Embedded-AI-Edge-Gateway/src/capture/audiocapture.cpp \
-  /home/linux/project/Embedded-AI-Edge-Gateway/src/capture/videocapture.cpp \
-  /usr/bin/cmake

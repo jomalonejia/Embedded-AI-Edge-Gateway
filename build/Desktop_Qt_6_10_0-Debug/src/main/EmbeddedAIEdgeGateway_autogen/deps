@@ -1,9 +1,0 @@
-EmbeddedAIEdgeGateway_autogen/timestamp: \
-	/home/linux/project/Embedded-AI-Edge-Gateway/build/Desktop_Qt_6_10_0-Debug/src/main/.qt/qml_imports/EmbeddedAIEdgeGateway_conf.cmake \
-	/home/linux/project/Embedded-AI-Edge-Gateway/src/main/CMakeLists.txt \
-	/home/linux/project/Embedded-AI-Edge-Gateway/src/main/main.cpp \
-	/home/linux/software/Qt/6.10.0/gcc_64/lib/cmake/Qt6Core/Qt6CoreConfigureFileTemplate.in \
-	/home/linux/software/Qt/6.10.0/gcc_64/lib/cmake/Qt6Qml/Qt6QmlModuleDirMappingTemplate.qrc.in \
-	/home/linux/software/Qt/6.10.0/gcc_64/lib/cmake/Qt6Qml/Qt6qmldirTemplate.cmake.in \
-	/usr/share/cmake-3.28/Modules/GNUInstallDirs.cmake \
-	/usr/bin/cmake

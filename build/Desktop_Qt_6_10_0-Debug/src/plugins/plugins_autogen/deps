@@ -1,4 +1,0 @@
-plugins_autogen/timestamp: \
-	/home/linux/project/Embedded-AI-Edge-Gateway/src/plugins/CMakeLists.txt \
-	/home/linux/project/Embedded-AI-Edge-Gateway/src/plugins/plugins.cpp \
-	/usr/bin/cmake
