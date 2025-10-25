@@ -1,6 +1,6 @@
 <RCC>
-  <qresource prefix="/EmbeddedAI/UI/">
-    <file alias="qml/main.qml">/home/linux/project/Embedded-AI-Edge-Gateway/src/ui/qml/main.qml</file>
+  <qresource prefix="/qt/qml/ui/">
+    <file alias="Main.qml">/home/linux/project/Embedded-AI-Edge-Gateway/src/ui/Main.qml</file>
   </qresource>
 </RCC>
 

@@ -25,7 +25,6 @@
 	],
 	"MOC_INCLUDES" : 
 	[
-		"/home/linux/project/Embedded-AI-Edge-Gateway/include",
 		"/home/linux/project/Embedded-AI-Edge-Gateway/include/speech",
 		"/home/linux/project/Embedded-AI-Edge-Gateway/include/core",
 		"/home/linux/software/Qt/6.10.0/gcc_64/include/QtMultimedia",
@@ -56,7 +55,6 @@
 	"MOC_PREDEFS_CMD" : 
 	[
 		"/bin/g++",
-		"-std=gnu++17",
 		"-dM",
 		"-E",
 		"-c",
@@ -69,7 +67,7 @@
 	"PARALLEL" : 2,
 	"PARSE_CACHE_FILE" : "/home/linux/project/Embedded-AI-Edge-Gateway/build/Desktop_Qt_6_10_0-Debug/src/speech/CMakeFiles/speech_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "/home/linux/software/Qt/6.10.0/gcc_64/libexec/moc",
-	"QT_UIC_EXECUTABLE" : "/home/linux/software/Qt/6.10.0/gcc_64/libexec/uic",
+	"QT_UIC_EXECUTABLE" : "",
 	"QT_VERSION_MAJOR" : 6,
 	"QT_VERSION_MINOR" : 10,
 	"SETTINGS_FILE" : "/home/linux/project/Embedded-AI-Edge-Gateway/build/Desktop_Qt_6_10_0-Debug/src/speech/CMakeFiles/speech_autogen.dir/AutogenUsed.txt",

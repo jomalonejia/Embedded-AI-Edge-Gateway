@@ -1,22 +1,19 @@
 cmake_minimum_required(VERSION 3.16)
-project(EmbeddedAIEdgeGateway LANGUAGES CXX)
 
-set(CMAKE_CXX_STANDARD 17)
-set(CMAKE_AUTOMOC ON)
-set(CMAKE_AUTORCC ON)
-set(CMAKE_AUTOUIC ON)
+project(EmbeddedAIEdgeGateway VERSION 0.1 LANGUAGES CXX)
 
-find_package(Qt6 REQUIRED COMPONENTS Core Gui Widgets Qml Quick Multimedia Network)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-include_directories(${CMAKE_SOURCE_DIR}/include)
+find_package(Qt6 REQUIRED COMPONENTS
+    Core
+    Gui         # 用于 QGuiApplication
+    Quick       # 用于 QQmlApplicationEngine
+    Multimedia
+)
 
-# 子目录
-add_subdirectory(src/main)
-add_subdirectory(src/core)
-add_subdirectory(src/capture)
-add_subdirectory(src/inference)
-add_subdirectory(src/dispatcher)
-add_subdirectory(src/control)
-add_subdirectory(src/speech)
-add_subdirectory(src/plugins)
-add_subdirectory(src/ui)
+qt_standard_project_setup(REQUIRES 6.8)
+
+add_subdirectory(models)
+add_subdirectory(src)
+add_subdirectory(tests)
+

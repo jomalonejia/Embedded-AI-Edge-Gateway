@@ -1,42 +1,20 @@
-#include <QApplication>
+#include <QGuiApplication>
 #include <QQmlApplicationEngine>
-#include <QResource>
-#include <QDebug>
-#include <QDir>
-#include <QFile>
 
 int main(int argc, char *argv[])
 {
-    QApplication app(argc, argv);
+    qputenv("QT_IM_MODULE", QByteArray("qtvirtualkeyboard"));
 
-    // 调试：检查资源文件是否注册
-    qDebug() << "Registered resource files:";
-    for (const QString &file : QDir(":/").entryList()) {
-        qDebug() << "  " << file;
-    }
-
-    // 检查特定路径
-    if (QFile::exists(":/qml/main.qml")) {
-        qDebug() << "Found: :/qml/main.qml";
-    } else if (QFile::exists(":/main.qml")) {
-        qDebug() << "Found: :/main.qml";
-    } else {
-        qDebug() << "No QML files found in resources";
-    }
+    QGuiApplication app(argc, argv);
 
     QQmlApplicationEngine engine;
-
-    // 尝试加载
-    if (QFile::exists(":/qml/main.qml")) {
-        engine.load(QUrl("qrc:/qml/main.qml"));
-    } else {
-        engine.load(QUrl("qrc:/main.qml"));
-    }
-
-    if (engine.rootObjects().isEmpty()){
-        qDebug() << "Failed to load QML file";
-        return -1;
-    }
+    QObject::connect(
+        &engine,
+        &QQmlApplicationEngine::objectCreationFailed,
+        &app,
+        []() { QCoreApplication::exit(-1); },
+        Qt::QueuedConnection);
+    engine.loadFromModule("main", "Main");
 
     return app.exec();
 }

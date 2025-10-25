@@ -1,1 +1,1 @@
-EmbeddedAI(EmbeddedAIEdgeGateway)
+main(EmbeddedAIEdgeGateway)

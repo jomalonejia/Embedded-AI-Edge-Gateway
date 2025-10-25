@@ -1,8 +1,9 @@
-module EmbeddedAI.UI
+module ui
 linktarget uiplugin
 optional plugin uiplugin
-classname EmbeddedAI_UIPlugin
+classname uiPlugin
 typeinfo ui.qmltypes
-prefer :/EmbeddedAI/UI/
+prefer :/qt/qml/ui/
+Main 1.0 Main.qml
 depends QtQuick
 

@@ -1,12 +1,12 @@
 --bare
 -I
+/home/linux/project/Embedded-AI-Edge-Gateway/build/Desktop_Qt_6_10_0-Debug/src
+-I
 /home/linux/software/Qt/6.10.0/gcc_64/qml
 --resource
-/home/linux/project/Embedded-AI-Edge-Gateway/build/Desktop_Qt_6_10_0-Debug/src/ui/.qt/rcc/qmake_EmbeddedAI_UI.qrc
+/home/linux/project/Embedded-AI-Edge-Gateway/build/Desktop_Qt_6_10_0-Debug/src/ui/.qt/rcc/qmake_ui.qrc
 --resource
 /home/linux/project/Embedded-AI-Edge-Gateway/build/Desktop_Qt_6_10_0-Debug/src/ui/.qt/rcc/ui_raw_qml_0.qrc
---resource
-/home/linux/project/Embedded-AI-Edge-Gateway/build/Desktop_Qt_6_10_0-Debug/src/ui/.qt/rcc/ui_raw_res_0.qrc
-/home/linux/project/Embedded-AI-Edge-Gateway/src/ui/qml/main.qml
+/home/linux/project/Embedded-AI-Edge-Gateway/src/ui/Main.qml
 --json
 /home/linux/project/Embedded-AI-Edge-Gateway/build/Desktop_Qt_6_10_0-Debug/ui_qmllint.json

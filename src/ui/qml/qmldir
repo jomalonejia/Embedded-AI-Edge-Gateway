@@ -1,2 +1,0 @@
-module EmbeddedAI.UI
-singleton MainWindow 1.0 main.qml

@@ -6,20 +6,18 @@
 	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
 	"CMAKE_LIST_FILES" : 
 	[
-		"/home/linux/project/Embedded-AI-Edge-Gateway/src/main/CMakeLists.txt"
+		"/home/linux/project/Embedded-AI-Edge-Gateway/src/main/CMakeLists.txt",
+		"/home/linux/software/Qt/6.10.0/gcc_64/lib/cmake/Qt6Core/Qt6CoreConfigureFileTemplate.in",
+		"/home/linux/software/Qt/6.10.0/gcc_64/lib/cmake/Qt6Qml/Qt6QmlModuleDirMappingTemplate.qrc.in",
+		"/home/linux/software/Qt/6.10.0/gcc_64/lib/cmake/Qt6Core/Qt6CoreConfigureFileTemplate.in",
+		"/usr/share/cmake-3.28/Modules/GNUInstallDirs.cmake",
+		"/home/linux/software/Qt/6.10.0/gcc_64/lib/cmake/Qt6Qml/Qt6qmldirTemplate.cmake.in",
+		"/home/linux/project/Embedded-AI-Edge-Gateway/build/Desktop_Qt_6_10_0-Debug/src/main/.qt/qml_imports/EmbeddedAIEdgeGateway_conf.cmake"
 	],
 	"CMAKE_SOURCE_DIR" : "/home/linux/project/Embedded-AI-Edge-Gateway",
 	"DEP_FILE" : "/home/linux/project/Embedded-AI-Edge-Gateway/build/Desktop_Qt_6_10_0-Debug/src/main/EmbeddedAIEdgeGateway_autogen/deps",
 	"DEP_FILE_RULE_NAME" : "EmbeddedAIEdgeGateway_autogen/timestamp",
-	"HEADERS" : 
-	[
-		[
-			"/home/linux/project/Embedded-AI-Edge-Gateway/src/main/appcore.h",
-			"MU",
-			"EWIEGA46WW/moc_appcore.cpp",
-			null
-		]
-	],
+	"HEADERS" : [],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
 	"INCLUDE_DIR" : "/home/linux/project/Embedded-AI-Edge-Gateway/build/Desktop_Qt_6_10_0-Debug/src/main/EmbeddedAIEdgeGateway_autogen/include",
 	"MOC_COMPILATION_FILE" : "/home/linux/project/Embedded-AI-Edge-Gateway/build/Desktop_Qt_6_10_0-Debug/src/main/EmbeddedAIEdgeGateway_autogen/mocs_compilation.cpp",
@@ -34,8 +32,7 @@
 		"QT_QMLMODELS_LIB",
 		"QT_QMLWORKERSCRIPT_LIB",
 		"QT_QML_LIB",
-		"QT_QUICK_LIB",
-		"QT_WIDGETS_LIB"
+		"QT_QUICK_LIB"
 	],
 	"MOC_DEPEND_FILTERS" : 
 	[
@@ -46,23 +43,19 @@
 	],
 	"MOC_INCLUDES" : 
 	[
-		"/home/linux/project/Embedded-AI-Edge-Gateway/include",
-		"/home/linux/project/Embedded-AI-Edge-Gateway/include/core",
-		"/home/linux/project/Embedded-AI-Edge-Gateway/include/dispatcher",
-		"/home/linux/project/Embedded-AI-Edge-Gateway/include/inference",
-		"/home/linux/software/Qt/6.10.0/gcc_64/include/QtCore",
-		"/home/linux/software/Qt/6.10.0/gcc_64/include",
-		"/home/linux/software/Qt/6.10.0/gcc_64/mkspecs/linux-g++",
-		"/home/linux/software/Qt/6.10.0/gcc_64/include/QtGui",
+		"/home/linux/project/Embedded-AI-Edge-Gateway/src/main",
 		"/home/linux/software/Qt/6.10.0/gcc_64/include/QtQml",
+		"/home/linux/software/Qt/6.10.0/gcc_64/include",
+		"/home/linux/software/Qt/6.10.0/gcc_64/include/QtCore",
+		"/home/linux/software/Qt/6.10.0/gcc_64/mkspecs/linux-g++",
 		"/home/linux/software/Qt/6.10.0/gcc_64/include/QtQmlIntegration",
 		"/home/linux/software/Qt/6.10.0/gcc_64/include/QtNetwork",
 		"/home/linux/software/Qt/6.10.0/gcc_64/include/QtQuick",
+		"/home/linux/software/Qt/6.10.0/gcc_64/include/QtGui",
 		"/home/linux/software/Qt/6.10.0/gcc_64/include/QtQmlMeta",
 		"/home/linux/software/Qt/6.10.0/gcc_64/include/QtQmlModels",
 		"/home/linux/software/Qt/6.10.0/gcc_64/include/QtQmlWorkerScript",
 		"/home/linux/software/Qt/6.10.0/gcc_64/include/QtOpenGL",
-		"/home/linux/software/Qt/6.10.0/gcc_64/include/QtWidgets",
 		"/usr/include",
 		"/usr/include/c++/13",
 		"/usr/include/x86_64-linux-gnu/c++/13",
@@ -80,12 +73,11 @@
 		"Q_GADGET_EXPORT",
 		"Q_ENUM_NS"
 	],
-	"MOC_OPTIONS" : [],
+	"MOC_OPTIONS" : [ "--output-json" ],
 	"MOC_PATH_PREFIX" : false,
 	"MOC_PREDEFS_CMD" : 
 	[
 		"/bin/g++",
-		"-std=gnu++17",
 		"-dM",
 		"-E",
 		"-c",
@@ -93,22 +85,24 @@
 	],
 	"MOC_PREDEFS_FILE" : "/home/linux/project/Embedded-AI-Edge-Gateway/build/Desktop_Qt_6_10_0-Debug/src/main/EmbeddedAIEdgeGateway_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
-	"MOC_SKIP" : [],
+	"MOC_SKIP" : 
+	[
+		"/home/linux/project/Embedded-AI-Edge-Gateway/build/Desktop_Qt_6_10_0-Debug/src/main/.qt/rcc/qrc_EmbeddedAIEdgeGateway_raw_qml_0.cpp",
+		"/home/linux/project/Embedded-AI-Edge-Gateway/build/Desktop_Qt_6_10_0-Debug/src/main/.qt/rcc/qrc_qmake_main.cpp",
+		"/home/linux/project/Embedded-AI-Edge-Gateway/build/Desktop_Qt_6_10_0-Debug/src/main/.rcc/qmlcache/EmbeddedAIEdgeGateway_Main_qml.cpp",
+		"/home/linux/project/Embedded-AI-Edge-Gateway/build/Desktop_Qt_6_10_0-Debug/src/main/.rcc/qmlcache/EmbeddedAIEdgeGateway_qmlcache_loader.cpp",
+		"/home/linux/project/Embedded-AI-Edge-Gateway/build/Desktop_Qt_6_10_0-Debug/src/main/embeddedaiedgegateway_qmltyperegistrations.cpp"
+	],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 2,
 	"PARSE_CACHE_FILE" : "/home/linux/project/Embedded-AI-Edge-Gateway/build/Desktop_Qt_6_10_0-Debug/src/main/CMakeFiles/EmbeddedAIEdgeGateway_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "/home/linux/software/Qt/6.10.0/gcc_64/libexec/moc",
-	"QT_UIC_EXECUTABLE" : "/home/linux/software/Qt/6.10.0/gcc_64/libexec/uic",
+	"QT_UIC_EXECUTABLE" : "",
 	"QT_VERSION_MAJOR" : 6,
 	"QT_VERSION_MINOR" : 10,
 	"SETTINGS_FILE" : "/home/linux/project/Embedded-AI-Edge-Gateway/build/Desktop_Qt_6_10_0-Debug/src/main/CMakeFiles/EmbeddedAIEdgeGateway_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
-		[
-			"/home/linux/project/Embedded-AI-Edge-Gateway/src/main/appcore.cpp",
-			"MU",
-			null
-		],
 		[
 			"/home/linux/project/Embedded-AI-Edge-Gateway/src/main/main.cpp",
 			"MU",
@@ -117,7 +111,14 @@
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],
-	"UIC_SKIP" : [],
+	"UIC_SKIP" : 
+	[
+		"/home/linux/project/Embedded-AI-Edge-Gateway/build/Desktop_Qt_6_10_0-Debug/src/main/.qt/rcc/qrc_EmbeddedAIEdgeGateway_raw_qml_0.cpp",
+		"/home/linux/project/Embedded-AI-Edge-Gateway/build/Desktop_Qt_6_10_0-Debug/src/main/.qt/rcc/qrc_qmake_main.cpp",
+		"/home/linux/project/Embedded-AI-Edge-Gateway/build/Desktop_Qt_6_10_0-Debug/src/main/.rcc/qmlcache/EmbeddedAIEdgeGateway_Main_qml.cpp",
+		"/home/linux/project/Embedded-AI-Edge-Gateway/build/Desktop_Qt_6_10_0-Debug/src/main/.rcc/qmlcache/EmbeddedAIEdgeGateway_qmlcache_loader.cpp",
+		"/home/linux/project/Embedded-AI-Edge-Gateway/build/Desktop_Qt_6_10_0-Debug/src/main/embeddedaiedgegateway_qmltyperegistrations.cpp"
+	],
 	"UIC_UI_FILES" : [],
 	"VERBOSITY" : 0
 }

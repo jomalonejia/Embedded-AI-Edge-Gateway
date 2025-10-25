@@ -1,30 +1,26 @@
-# 可执行程序定义
-add_executable(EmbeddedAIEdgeGateway
+qt_add_executable(EmbeddedAIEdgeGateway
     main.cpp
-    appcore.cpp
 )
 
-# 头文件路径
-target_include_directories(EmbeddedAIEdgeGateway
-    PRIVATE
-        ${CMAKE_SOURCE_DIR}/include
+# 主程序的 QML 模块（如果需要）
+qt_add_qml_module(EmbeddedAIEdgeGateway
+    URI main
+    VERSION 1.0
+    QML_FILES
+        Main.qml
 )
 
-# 链接模块
+
 target_link_libraries(EmbeddedAIEdgeGateway
     PRIVATE
+        Qt6::Quick
         Qt6::Core
         Qt6::Gui
-        Qt6::Qml
-        Qt6::Quick
-        Qt6::Widgets
-        core
-        dispatcher
-        inference
-        ui
 )
 
-# 指定可执行输出路径
-set_target_properties(EmbeddedAIEdgeGateway PROPERTIES
-    RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin
+include(GNUInstallDirs)
+install(TARGETS EmbeddedAIEdgeGateway
+    BUNDLE DESTINATION .
+    LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR}
+    RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR}
 )

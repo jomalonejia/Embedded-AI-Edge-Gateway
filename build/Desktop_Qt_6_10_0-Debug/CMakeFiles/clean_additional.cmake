@@ -27,11 +27,5 @@ if("${CONFIG}" STREQUAL "" OR "${CONFIG}" STREQUAL "Debug")
   "src/speech/CMakeFiles/speech_autogen.dir/AutogenUsed.txt"
   "src/speech/CMakeFiles/speech_autogen.dir/ParseCache.txt"
   "src/speech/speech_autogen"
-  "src/ui/CMakeFiles/ui_autogen.dir/AutogenUsed.txt"
-  "src/ui/CMakeFiles/ui_autogen.dir/ParseCache.txt"
-  "src/ui/CMakeFiles/uiplugin_autogen.dir/AutogenUsed.txt"
-  "src/ui/CMakeFiles/uiplugin_autogen.dir/ParseCache.txt"
-  "src/ui/ui_autogen"
-  "src/ui/uiplugin_autogen"
   )
 endif()
