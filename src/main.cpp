@@ -14,7 +14,7 @@ int main(int argc, char *argv[])
         &app,
         []() { QCoreApplication::exit(-1); },
         Qt::QueuedConnection);
-    engine.loadFromModule("EmbeddedAIEdgeGateway", "UI");
+    engine.loadFromModule("EmbeddedAI.UI", "Main");
 
     return app.exec();
 }
